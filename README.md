@@ -11,16 +11,16 @@ The above website is the website for project euler. If you do not have an accoun
 
 There were a couple of things that I did while solving this problem. The first thing was to look at what the squares of natural numbers tell.  
 
-1^2 = 1
-2^2 = 4
-3^2 = 9
+1^2 = 1<br>
+2^2 = 4<br>
+3^2 = 9<br>
 
 In short, a pattern forms of the type of:  
 
-1 = 1
-1 3 = 4
-1 3 5 = 9
-1 3 5 7 = 16
+1 = 1<br>
+1 3 = 4<br>
+1 3 5 = 9<br>
+1 3 5 7 = 16<br>
 1 3 5 7 9 = 25, and so on.
 
 It's pretty easy to get an output like this out of 'c'. All you gotta do is use 2 nested for loops, and declare that the loop that is inside the main loop follow: `2(i)+1`.  
@@ -37,11 +37,11 @@ Let's have a look at odd numbers:
 
 If we square some of these numbers, a pattern emerges.  
 
-1^2 = 1
-3^2 = 9
-5^2 = 25
-7^2 = 49
-9^2 = 81
+1^2 = 1<br>
+3^2 = 9<br>
+5^2 = 25<br>
+7^2 = 49<br>
+9^2 = 81<br>
 
 The difference between the square of the first term and the second is of: 8.  
 The difference between the square of the second term and the third is of: 16.  
@@ -50,12 +50,12 @@ The difference between the square of the fourth term and the fifth is of: 32.
 
 ---
 
-An interesting pattern emerges here:  
-8(0) + 1 = 1 --> 1^2
-8(1) + 1 = 9 --> 3^2
-8(3) + 1 = 25 --> 5^2
-8(6) + 1 = 49 --> 7^2
-8(10) + 1 = 81 --> 9^2
+An interesting pattern emerges here:  <br>
+8(0) + 1 = 1 --> 1^2<br>
+8(1) + 1 = 9 --> 3^2<br>
+8(3) + 1 = 25 --> 5^2<br>
+8(6) + 1 = 49 --> 7^2<br>
+8(10) + 1 = 81 --> 9^2<br>
 
 
 but also look at: `0, 1, 3, 6, 10`
@@ -65,11 +65,12 @@ but also look at: `0, 1, 3, 6, 10`
 6 and 3 have a difference of 3
 10 and 6 have a difference of 4
 
-0 + 1 = 1
-1 + 2 = 3
-3 + 3 = 6
-6 + 4 = 10
+0 + 1 = 1<br>
+1 + 2 = 3<br>
+3 + 3 = 6<br>
+6 + 4 = 10<br>
 10 + 5 = 15 --> (8(15) + 1 = 11^2)
+<br>
 
 
 We may run a for loop where we have a variable by the name of `sum` which has a value of 0, and we add in `i` to it.  
