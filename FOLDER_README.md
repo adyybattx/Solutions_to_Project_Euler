@@ -1,6 +1,15 @@
-Project Euler(https://projecteuler.net) is a website which has problems combining in themselves, a nice interplay of math and coding. <br>
+\documentclass{article}
+\usepackage{xcolor}
 
-The user has complete freedom in solving the problems with the methods that he or she may so desire.<br>
-The usage of computer programming and skills, thereof is highly recommended.<br>
+\begin{document}
 
-Happy Hunting!
+Project Euler (\texttt{https://projecteuler.net}) is a website featuring problems that beautifully combine 
+\textbf{\textcolor{blue}{math}} and \textbf{\textcolor{green}{coding}}.
+
+Users have complete freedom to solve these problems using any methods they desire.
+
+The use of \textbf{\textcolor{red}{computer programming}} and related skills is highly recommended.
+
+\textbf{Happy Hunting!}
+
+\end{document}
